@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const usuariosAbordaron = document.getElementById('usuariosAbordaron');
     const montoTotalElement = document.getElementById('montoTotal');
 
-    // Array de objetos simulando los datos de los viajes
     const viajes = [
         { usuario: 'Harry Styles', costo: 200 },
         { usuario: 'Taylor Swift', costo: 150 },
@@ -16,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
         { usuario: 'Joe Jonas', costo: 970 },
     ];
 
-    // Función para mostrar la lista de usuarios que más abordaron el vehículo
     const personasElement = document.getElementById("usuariosAbordaron");
     
     function writePersona() {
@@ -38,7 +36,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     }
 
-    // Función para calcular el monto total de los viajes realizados
     function calcularMontoTotal() {
         const montoTotal = viajes.reduce((total, viaje) => total + viaje.costo, 0);
         montoTotalElement.textContent = `Monto Total = ${montoTotal} soles`;

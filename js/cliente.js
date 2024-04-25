@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const todosViajesDiv = document.getElementById('todosViajes');
     const todosViajesLista = document.getElementById('todosViajesLista');
 
-    // Array de objetos de viajes (solo como ejemplo)
     const viajes = [
         { 'duracion': '20 horas', 'fecha': '2024-01-15', 'origen': 'Lima', 'destino': 'Tarapoto', 'conductor': 'Juan Pérez' },
         { 'duracion': '9.5 horas', 'fecha': '2024-02-14', 'origen': 'Arequipa', 'destino': 'Chiclayo', 'conductor': 'María García' },
@@ -34,10 +33,9 @@ document.addEventListener('DOMContentLoaded', function() {
         verMasBtn.style.display = 'none'; // Ocultar el botón "Ver más" después de hacer clic
     }
 
-    // Mostrar los últimos 4 viajes al cargar la página
     mostrarUltimosViajes();
 
-    // Manejar el clic en el botón "Ver más"
+    // "Ver más"
     verMasBtn.addEventListener('click', function() {
         mostrarTodosViajes();
     });
