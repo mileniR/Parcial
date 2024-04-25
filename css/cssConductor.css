@@ -1,0 +1,38 @@
+
+/* Estilos específicos del Dashboard del Conductor */
+.dashboard-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.list-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.list-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.monto-total {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.card {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
